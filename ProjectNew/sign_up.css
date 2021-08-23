@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fontawesome.com/v5.15/icons/flower-tulip?style=regular');
+*{box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+:root{
+    --fontcolor: #553636
+    --background: #a67d7d 
+}
+h1{
+color:var(--mycolor);
+size: 3vw;
+font-size: 4vw;
+font-family: 'Amatic SC', cursive;
+text-align: right;
+color: #a67d7d ;
+}
+
+
+body{
+  text-align: right;
+  font-size: 40px;
+   
+}
+.nevigate{
+    display: grid;
+
+}
+.signin{grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: var(--background) ;
+    font-size: 2.5vw;
+    text-align: center;}
+
+
+
+.shopping-cart{grid-column-start: 2;
+    grid-column-end: 2;
+       background-color: var(--background) ;
+       font-size: 2.5vw;
+      text-align: center;}
+
+
+.search{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    font-size: 2.5vw;
+     background-color: var(--background) ;
+     box-sizing: border-box;
+     text-align: center;
+     width: 100%;
+    }
+
+.input {
+      border-radius: 5px;
+       width: 12vw;
+       height: 3vw;
+       font-size: 1.5vw;
+    }
+
+
+.searchbtn{  
+        background: rgb(211, 210, 198,0.3);
+        width: 10%;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+    }
+.fas{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        }
+
+.choose{
+            display: grid;
+        
+        }
+
+.element{grid-column-start: 4;
+            grid-column-end: 4;
+               background-color: var(--background) ;
+               font-size: 2.5vw;
+              text-align: right;}
+
+.custom-assembly{grid-column-start: 5;
+            grid-column-end: 5;
+               background-color: var(--background) ;
+               font-size: 2.5vw;
+              text-align: right;}
+
+ .bouquet{grid-column-start: 6;
+            grid-column-end: 6;
+               background-color: var(--background) ;
+               font-size: 2.5vw;
+              text-align: right;}
+            
+.about{grid-column-start: 7;
+             grid-column-end: 7;
+             background-color: var(--background) ;
+             font-size: 2.5vw;
+             text-align: right;}
+.Sign_up{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-size: 2vw;
+    
+}
+
+form {
+    text-align: center;   /* מיקום המלל עצמו */
+    display: inline-block;
+   background-color:  #a67d7d ;
+   border: 3px solid white;
+   width: 40%;
+   font-size: 1.5vw;
+ }
