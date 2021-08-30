@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fontawesome.com/v5.15/icons/flower-tulip?style=regular');
+*{box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+
 :root {
   --primary: #69ae14;
   --white: #fff;
@@ -14,7 +20,7 @@
   box-sizing: inherit;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"); */
 
 html {
   box-sizing: border-box;
@@ -101,7 +107,7 @@ nav .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 97%;
 }
 
 .wrapper .nav-list {
@@ -114,7 +120,7 @@ nav .wrapper {
 
 .nav-list a {
   color: var(--black);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding: 0.9rem 1.5rem;
   border-radius: 0.5rem;
   transition: all 300ms ease;
@@ -244,6 +250,8 @@ nav .wrapper {
 }
 
 .nav-list .icons .count {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
   justify-content: center;
   position: absolute;
   top: 0.8rem;
