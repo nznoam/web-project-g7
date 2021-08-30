@@ -627,6 +627,35 @@ form {
    font-size: 1.5vw;
    border: 50px solid rgb(255, 255, 255);
  }
+/*---------------------------  personal-details noam ----------------------------------- */
+.personal-details{
+  display: grid;
+  background-color:  rgb(166, 125, 125,0.2) ;
+  grid-template-areas: ' details extra-details ';
+ }
+.details{
+  grid-area: details;
+  text-align: left;
+  background-color:  rgb(166, 125, 125,0.2) ;
+  padding: 5vw;
+  font-size: 2.5rem;
+}
+.extra-details{
+  display: grid;
+  grid-area: extra-details;
+  text-align: center;
+  background-color:  #a67d7d ;
+  padding: 90px;
+  font-size: 2.5rem;
+  justify-items: center;
+  }
+.myphoto{
+    background-image: url(face.png);
+    width: 15vw ;
+    height:20vw; 
+    border-radius: 15px;
+  }
+
 
 
 
