@@ -1,0 +1,64 @@
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="sign_up.css">
+        <script src="part 2.js"></script>
+        <h1>פרח השכונות של ב"ש</h1>
+    </head>
+
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+        <div class="nevigate">
+
+                <div class="signin">
+                    <a href="#signin">איזור אישי</a> </div>
+
+                <div class="shopping-cart"> 
+                <a href="#shopping-cart">סל הקניות שלי</a> </div>
+
+                <div class="search"> 
+                    <meta charset="UTF-8">
+                    <title>Search Box Design</title>
+                    <input type="text" class="input"  
+	                 placeholder="What are you looking for?">
+	                <div class="searchbtn" "><i class="fas fa-search"></i></div>
+                </div>
+
+                <div class="element">
+                <a href="#element">מוצרי החנות </a> </div>
+ 
+                <div class="custom-assembly">
+                <a href="#custom-assembly"> הרכבה אישית</a> </div>
+
+                <div class="bouquet">
+                <a href="#bouquet">זרים לאירועים </a> </div>
+
+                <div class="about">
+                <a href="#about">אודות </a> </div> 
+
+        </div>
+
+    
+           <form action="" onsubmit="return validUS()">
+            <div class="Sign_up">
+				<h2>הרשמה-משתמש חדש</h2>
+                <input type="text" id="fname" name="fname">
+				<label for="fname">שם פרטי</label><br>
+                <input type="text" id="lname" name="lname">
+                <label for="lname">שם משפחה</label><br>
+                <input type="email" id="email" placeholder="name@example.com">
+                <label for="email">דוא"ל</label><br>
+                <input type="password" placeholder="הכנס סיסמא" id="psw_repeat" name="psw-repeat"  required>
+                <label for="password">סיסמא</label><br>
+                <input type="password" placeholder="הכנס סיסמא בשנית" id="psw_repeat" name="psw-repeat"  required>
+				<label  for="psw_repeat">חזור על הסיסמא</label><br>
+				<button type="submit" class="signupbtn" >הרשמה</button>
+			
+            </div>
+		</form>
+
+    </body>
+</html>
