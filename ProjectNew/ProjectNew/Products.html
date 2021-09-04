@@ -26,9 +26,7 @@
       </div>
 
       <div class="search">
-        <meta charset="UTF-8">
-        <title>Search Box Design</title>
-        <input type="text" class="input"  
+        <input type="text" class="search_line"  
          placeholder="Search">
          <i class="fas fa-search"></i>
       </div>
@@ -38,8 +36,7 @@
         <div class="top">
           <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
         </div>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="">Sign-In/Sign-Up</a></li>
         <li><a href="products.html">Costomized</a></li>
 
         <li>
@@ -47,56 +44,28 @@
           <input type="checkbox" id="showdrop1" />
           <label for="showdrop1" class="mobile-item">Events<span><i class="fas fa-chevron-down"></i></span></label>
           <ul class="drop-menu1">
-            <li><a href="">Vendor Store listings</a></li>
-            <li><a href="">Store Details</a></li>
+            <li><a href="">Table arrangements <img src="./images/table.png" alt="" /></a></li>
+            <li><a href="">Bridal bouquet <img src="./images/Bridal_bouquet.jfif" alt="" /></a></li>
           </ul>
         </li>
 
         <li>
           <a href="" class="desktop-item">Products<span><i class="fas fa-chevron-down"></i></span></a>
-          <input type="checkbox" id="showMega" />
-          <label for="showMega" class="mobile-item">Products<span><i class="fas fa-chevron-down"></i></span></label>
-          <div class="mega-box">
-            <div class="content">
-              <div class="row">
-                <img src="./images/nav.png" alt="" />
-              </div>
-              <div class="row">
-                <header>Shop Layout</header>
-                <ul class="mega-links">
-                  <li><a href="#">Shop With Background</a></li>
-                  <li><a href="#">Shop Mini Categories</a></li>
-                  <li><a href="#">Shop Only Categories</a></li>
-                  <li><a href="#">Shop Icon Categories</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header>Filter Layout</header>
-                <ul class="mega-links">
-                  <li><a href="#">Sidebar</a></li>
-                  <li><a href="#">Filter Default</a></li>
-                  <li><a href="#">Filter Drawer</a></li>
-                  <li><a href="#">Filter Dropdown</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header>Product Layout</header>
-                <ul class="mega-links">
-                  <li><a href="#">Layout Zoom</a></li>
-                  <li><a href="#">Layout Sticky</a></li>
-                  <li><a href="#">Layout Sticky 2</a></li>
-                  <li><a href="#">Layout Scroll</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item">Products<span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+                  <li><a href="#">Flower pots <img src="./images/flower_pot.png" alt="" /> </a> </li>
+                  <li><a href="#">Seedlings <img src="./images/seedling.png" alt="" /></a></li>
+                  <li><a href="#">Bouquets <img src="./images/bouquet.png" alt="" /></a></li>
+                  <li><a href="#">Flower crowns <img src="./images/crown.png" alt="" /></a></li>
+          </ul>
         </li>
 
         <!-- icons -->
         <li class="icons">
           <a href="cart.html">
             <span>
-            <img src="./images/shoppingBag.svg" alt="" />
+              <i class="fas fa-shopping-cart fa-2x"></i>
             <small class="count d-flex">0</small>
           </span>
           </a>
@@ -105,11 +74,168 @@
       </ul>
       <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
     </div>
-  </nav><br><br>
+  </nav>
+
 
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
+ <!-- PRODUCTS -->
 
+ <section class="section products">
+      <div class="col-3-of-4">
+        <div class="header_products"><h1>Flower pots</h1></div>
+        <div class="pot_banner"><img src="./images/flower-pot-banner.jpg" alt="" /></div>
+        <div class="form">
+            <div class="gridHead"> <img src="./images/sideFlower.png" alt="" /> </div>
+             <form>
+                <div class="item">
+                    <label for="sort-by">Sort By Price</label>
+                    <select name="sort-by" id="sort-by">
+                      <option value="150" selected="selected">0-150</option>
+                      <option value="250">150-250</option>
+                      <option value="300">300+</option>
+                    </select>
+                  </div>
+                  <button class="button" style="vertical-align:middle"><span>Apply!</span></button>
+                </form>
+            <div class="gridHead2"> <img src="./images/sideFlower.png" alt="" /> </div>
+        </div>
+        
+        <div class="product-layout">
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/sokolent_white_cilinder.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="productDetails.html">Sokolent white cilinder</a>
+              <div class="price">
+                <span>75₪</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/spatipilium pink.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="">Spatipilium</a>
+              <div class="price">
+                <span>80₪</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/gozmania.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="">Gozmania</a>
+              <div class="price">
+                <span>90₪</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/zait.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="">Olive with pink pot</a>
+              <div class="price">
+                <span>90₪</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/antorium-grey.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="">Antorium with grey pot</a>
+              <div class="price">
+                <span>70₪</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/antorium-18-white ceramics.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="">Antorium-18 with white cermics pot</a>
+              <div class="price">
+                <span>75₪</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/gozmania12-grey.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="">Gozmania-12 with grey pot</a>
+              <div class="price">
+                <span>85₪</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/antorium-15-grey.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="">Antorium-15 with grey pot</a>
+              <div class="price">
+                <span>85₪</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- PAGINATION -->
+        <ul class="pagination">
+          <span>1</span>
+          <span>2</span>
+          <span class="icon">››</span>
+          <span class="last">Last »</span>
+        </ul>
+      </div>
+    </div>
+  </section>
+      
   
 
   <!------------------------------------------------------------------------------------------------------------------------------------->
