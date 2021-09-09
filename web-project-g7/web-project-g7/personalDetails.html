@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/logoFlower.jpg" type="image/png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./homeCSS.css" />
+  <title>Perah Hashchunot</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+
+    <div class="wrapper container">
+      <div class="logo"><a href="home.html">
+        <img src="./images/logo-perah.jpg" alt="" style="width: 30vh;">
+      </a>
+      </div>
+
+      <div class="search">
+        <input type="text" class="search_line"  
+         placeholder="Search">
+         <i class="fas fa-search"></i>
+      </div>
+
+      
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+        <li><a href="registerLogIn.html">Sign-In/Sign-Up</a></li>
+        <li><a href="schedule.html">Classes</a></li>
+        <li><a href="customize.html">Customized</a></li>
+
+        <li>
+          <a href="" class="desktop-item">Events<span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop1" />
+          <label for="showdrop1" class="mobile-item">Events<span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+            <li><a href="Products.html">Table arrangements <img src="./images/table.png" alt="" /></a></li>
+            <li><a href="Products.html">Bridal bouquet <img src="./images/Bridal_bouquet.jfif" alt="" /></a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="" class="desktop-item">Products<span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item">Products<span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+                  <li><a href="Products.html">Flower pots <img src="./images/flower_pot.png" alt="" /> </a> </li>
+                  <li><a href="Products.html">Seedlings <img src="./images/seedling.png" alt="" /></a></li>
+                  <li><a href="Products.html">Bouquets <img src="./images/bouquet.png" alt="" /></a></li>
+                  <li><a href="Products.html">Flower crowns <img src="./images/crown.png" alt="" /></a></li>
+          </ul>
+        </li>
+
+        <!-- icons -->
+        <li class="icons">
+          <a href="cart.html">
+            <span>
+              <i class="fas fa-shopping-cart fa-2x"></i>
+            <small class="count d-flex">0</small>
+          </span>
+          </a>
+          
+        </li>
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+
+<!-------------------------------------------------------------personal-details-------------------------------------------------------------------->
+
+  <div class ="personal-details">
+
+    <div class ="extra-details">
+        <!-- <div class="myphoto"></div> -->
+
+        <div class="buttonforsd">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img id = "userPhoto" src="images/user.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Kobi Ozz</h1> <br>
+
+
+
+                <div class="row1">
+
+                  <div class="column-usrs">
+                    <img src="images/user.jpg" alt="Snow" onclick="onclickFuncUser()">
+                    <img src="images/user-boy.png" alt="Forest" onclick="onclickFuncBoy()">
+                  </div>
+
+                <div class="row2">
+                  <div class="column-usrs">
+                    <img src="images/user-girl.png" alt="Snow" onclick="onclickFuncGirl()" >
+                    <img src="images/woman-user.png" alt="Forest" onclick="onclickFuncWoman()">
+                  </div>
+
+                </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        <label  for="fname">Kobi ozz</label><br><br>
+        <button onclick="location.href='special-dates.html'" style="border-radius: 10px;"><span>Special Dates</span></button><br>
+       
+        <button onclick="location.href='Order_History.html'" style="border-radius: 10px;"><span>Shopping History</span></button><br>
+
+      </div>
+    </div>
+     <div class ="detailspd">
+       
+        <div class= "fname" for="fname">First name:</div><br>
+        <!-- !להכניס את הפרטים דרך ההרשמה לפה -->
+       
+        <div class="lname">Last name:</div><br>
+
+        <div class="dob">Date Of Birth:</div><br>
+       
+        <div class="emailpd">E-mail:</E-mail></div><br>
+
+        <div class="city">City:</div><br>
+
+        <div class="street">Street:</div><br>
+
+        <div class="postal">Zip Code: </div><br>
+      
+        <div class="phone">Phone: </div><br>
+       
+    </div>
+
+   <!-- ------------------------------------------------------------------------------------ -->
+  
+    </div>
+     <!-- Carousel Navigation -->
+    <div class="arrows d-flex">
+       <div class="custom-next d-flex">
+          <i class="bx bx-chevrons-right swiper-icon"></i>
+        </div>
+        <div class="custom-prev d-flex">
+          <i class="bx bx-chevrons-left swiper-icon"></i>
+        </div>
+    </div>
+  </section>
+
+
+
+  <!------------------------------------------------------------------------------------------------------------------------------------->
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="aboutUs.html">About Us</a>
+          <a href="contactUs.html">Contact Us</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="personalDetails.html">My Account</a>
+          <a href="Order_History.html">Order History</a>
+          <a href="special-dates.html">Special dates</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+                Metzada 1, Beersheva
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            perahashchunot@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            08-9563257
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+    <!-- Custom Scripts -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

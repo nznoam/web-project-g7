@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/logoFlower.jpg" type="image/png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./paymentCSS.css" />
+  <title>Perah Hashchunot</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+
+    <div class="wrapper container">
+      <div class="logo"><a href="home.html">
+        <img src="./images/logo-perah.jpg" alt="" style="width: 30vh;">
+      </a>
+      </div>
+
+      <div class="search">
+        <input type="text" class="search_line"  
+         placeholder="Search">
+         <i class="fas fa-search"></i>
+      </div>
+
+      
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+        <li><a href="registerLogIn.html">Sign-In/Sign-Up</a></li>
+        <li><a href="schedule.html">Classes</a></li>
+        <li><a href="customize.html">Customized</a></li>
+
+        <li>
+          <a href="" class="desktop-item">Events<span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop1" />
+          <label for="showdrop1" class="mobile-item">Events<span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+            <li><a href="Products.html">Table arrangements <img src="./images/table.png" alt="" /></a></li>
+            <li><a href="Products.html">Bridal bouquet <img src="./images/Bridal_bouquet.jfif" alt="" /></a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="" class="desktop-item">Products<span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item">Products<span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+                  <li><a href="Products.html">Flower pots <img src="./images/flower_pot.png" alt="" /> </a> </li>
+                  <li><a href="Products.html">Seedlings <img src="./images/seedling.png" alt="" /></a></li>
+                  <li><a href="Products.html">Bouquets <img src="./images/bouquet.png" alt="" /></a></li>
+                  <li><a href="Products.html">Flower crowns <img src="./images/crown.png" alt="" /></a></li>
+          </ul>
+        </li>
+
+        <!-- icons -->
+        <li class="icons">
+          <a href="cart.html">
+            <span>
+              <i class="fas fa-shopping-cart fa-2x"></i>
+            <small class="count d-flex">0</small>
+          </span>
+          </a>
+          
+        </li>
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+
+
+<!-----------------------------------------------------------payment---------------------------------------------------------------------->
+<h2> payment form</h2>
+    <div class="row">
+        <div class="col-75">
+            <div class="cont">
+                <form action="/action_page">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3> Billing Address</h3><br>
+                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                <input type="text" class="input-field" id="fname" name="name"  placeholder="John M. Doe" required>
+                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                <input type="text"  class="input-field" id="email" name="email"  placeholder="john@example.com" required>
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                <input type="text" class="input-field" id="adr"  name="address" placeholder="542 W. 15th Street" required>
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Phone</label>
+                                <input type="text" class="input-field" id="adr"  name="phone" placeholder="05#-#######" required>
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Additional Info</label>
+                                <input type="text"  class="input-field" id="adr" name="additional" placeholder="Extra details for order" required>
+                        </div>
+                        <div class="col-50">
+                            <h3> Payment</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                              <i class="fa fa-cc-visa" style="color:navy;"></i>
+                              <i class="fa fa-cc-amex" style="color:blue;"></i>
+                              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                              <i class="fa fa-cc-discover" style="color:orange;"></i>
+                            </div>
+                            <label for="cname"> Name on the card</label>
+                            <input type="text" class="input-field" id="cname" name="cardname" placeholder="John M. Doe">
+                            <label for="ccnum"> Cradit card number</label>
+                            <input type="text" class="input-field" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text"  class="input-field" id="expmonth" name="expmonth" placeholder="1-12" required>
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp year</label>
+                                    <input type="text"  class="input-field-backCard" id="expyear" name="expyear" placeholder="2018" required>
+                                    <label for="cvv">CVV</label>
+                                <input type="text"  class="input-field-backCard" id="cvv" name="cvv" placeholder="352" required>
+                                </div>
+                            
+                            </div>
+                        </div>
+
+                    </div>  <!---row-->
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameade"> shipping address same as billing
+                    </label>
+                    <input type="submit" value="Continue to checkout" class="btnPayment">
+                   
+                </form>
+            </div>
+            </div>
+        </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------->
+   <!-- Footer -->
+   <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="aboutUs.html">About Us</a>
+          <a href="contactUs.html">Contact Us</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="personalDetails.html">My Account</a>
+          <a href="Order_History.html">Order History</a>
+          <a href="special-dates.html">Special dates</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+                Metzada 1, Beersheva
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            perahashchunot@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            08-9563257
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+    <!-- Custom Scripts -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
